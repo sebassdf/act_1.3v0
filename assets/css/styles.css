@@ -1,0 +1,82 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    max-width: 95%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header h1{
+    text-align: center;
+    background-color: rgb(202, 12, 12);
+    border-radius: .3rem;
+    max-width: fit-content;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2rem;
+    font-weight: 800;
+    font-size: 1.5rem;
+    background-color: black;
+    width: 20%;
+    height: 55rem;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    color: white;
+}
+
+.menu ul li:hover{
+     cursor: pointer;
+     color: rgb(81, 78, 78);
+     transition: c;
+}
+
+
+.text-center{
+    text-align: center;
+ }
+
+ 
+.texto-derecho{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+.celeste{
+    background-color: rgba(5, 235, 235, 0.722);
+    height: 13rem;
+}
+
+.amarillo{
+    background-color: rgb(255, 255, 153);
+    height: 13rem;
+}
+
+.naranjo{
+    background-color: rgb(246, 190, 88);
+    height: 13rem;
+}
+
+.rojo{
+    background-color: rgb(180, 16, 16);
+    height: 13rem;
+}
+
+
+
+.texto-blanco{
+    color: white;
+}
+
